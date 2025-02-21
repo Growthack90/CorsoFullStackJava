@@ -1,0 +1,16 @@
+*.class
+*.jar
+*.war
+*.ear
+
+bin/
+target/
+build/
+
+.eclipse/
+
+*.log
+
+lib/
+
+.metadata
