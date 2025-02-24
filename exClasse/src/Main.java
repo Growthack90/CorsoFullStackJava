@@ -4,6 +4,21 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("**********************");
+        System.out.println("BASE");
+        System.out.println("**********************");
+        
+        System.out.println("Io ho " + 5 + 5 + " banane");
+        
+        System.out.println("Io ho " + (5 + 5) + " banane");
+        
+        boolean a = true;
+        boolean b = false;
+        boolean c = a && b;
+        System.out.println(c);
+        boolean d = a || b;
+        System.out.println(d);
+
+        System.out.println("**********************");
         System.out.println("METODI STRINGA");
         System.out.println("**********************");
         
@@ -71,15 +86,15 @@ public class Main {
         System.out.println("CLASSE IO");
         System.out.println("**********************");
         
-        io.print("stampo su stessa riga");
+        io.print("Stampo su stessa riga");
         
-        io.println("\nstampo andando poi a capo");
+        io.println("\nStampo andando poi a capo");
         
         int eta = io.inputInt("Inserisci la tua età: ");
         io.println("La tua età è: " + eta);
         
         String nome = io.inputString("Come ti chiami?");
-        io.println("Ciao "+ nome);        
+        io.println("Ciao "+ nome + "\n" + "Ho inserito il nome?\n" + !nome.isEmpty());        
                
     }
     
