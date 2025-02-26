@@ -31,16 +31,19 @@ public class IO {
         System.out.println(x);
     }
 
+    // Implementazione di readString() usando uno Scanner
     public static String readString() {
         Scanner sc = new Scanner(System.in);
         String testoDaAcquisire = sc.nextLine();
         return testoDaAcquisire;
     }
-    
+
+    // Implementazione di readInt() usando uno Scanner
     public static int readInt() {
 //        Scanner sc = new Scanner(System.in);
 //        int numeroIntero = sc.nextInt();
 //        return numeroIntero;
+    	// GESTIONE DEGLI ERRORI
         try {
           Scanner sc = new Scanner(System.in);
             int numeroIntero = sc.nextInt();
@@ -50,14 +53,14 @@ public class IO {
             return -1; // Puoi restituire un valore di default o gestire l'errore in altro modo
         }
     }
-    
+   
+    // Implementazione di readDouble() usando uno Scanner
     public static double readDouble() {
     		Scanner sc = new Scanner(System.in);
         double numeroReale = sc.nextDouble();
         return numeroReale;
     }
     
-
 }
 /*************************************************************/
 
