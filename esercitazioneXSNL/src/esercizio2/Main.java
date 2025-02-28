@@ -18,7 +18,7 @@ public class Main {
 /*************************************************************/
 //ESEMPIO 2
 /*************************************************************/
-package esempioPackages;
+package esercizio2;
 
 public class Main {
 	public static void main(String[] args) {
@@ -138,7 +138,8 @@ public class Main {
  
 				IO.println("Inserisci un numero intero");
 				x = IO.readInt();
-			} 
+				if (x%2 != 0)
+					System.out.println("Hai inserito un numero dispari, inserisci un numero pari: ");	} 
 		while (x%2 != 0);
 		IO.println("BRAVO HAI MESSO UN PARI FINITO");
 		/*
@@ -205,10 +206,4 @@ public class Main {
 		System.out.println("-----------------------------------");    
 	}
 }
-/*************************************************************/
-
-/*************************************************************/
-// ESEMPIO 3
-/*************************************************************/
-
 /*************************************************************/

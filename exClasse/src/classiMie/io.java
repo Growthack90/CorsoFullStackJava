@@ -14,8 +14,6 @@ public class io {
 		System.out.println(s);
 	}
 
-	
-	
 	// COMANDO 3
 	public static int inputInt(String richiesta) {
 	    println(richiesta);

@@ -1,4 +1,6 @@
-public class Main {
+package esercizio1;
+
+public class MainPersona {
     public static void main(String[] args) {
 
         Persona persona1 = new Persona();
