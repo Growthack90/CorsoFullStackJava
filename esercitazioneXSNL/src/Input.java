@@ -1,3 +1,4 @@
+/**********************************************************/
 //import java.util.Scanner;
 //
 //public class Input {
@@ -109,11 +110,19 @@ public class Input {
         
         System.out.println("Quanto sei alto, in cm?");
         altezza = sc.nextInt();
+        
+        sc.close();
 
         System.out.println("Ciao " + nome + "! A quanto par hai "+anni+" anni e sei alto "+altezza+" cm.");
     }
 
 }
+
+
+/**********************************************************/
+
+
+
 
 
 

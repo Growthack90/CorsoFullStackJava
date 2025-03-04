@@ -51,6 +51,8 @@
 //}
 
 
+
+
 //ESEMPIO 1 (modificato)
 //package esercizio3;
 //
@@ -120,7 +122,9 @@
 //}
 
 
-package esercizio3;
+
+
+package classiMie;
 
 import java.util.Scanner;
 
