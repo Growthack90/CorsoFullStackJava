@@ -1,0 +1,14 @@
+Traccia 1: Rubrica Telefonica (ArrayList)
+Obiettivo: Creare un programma che gestisca una rubrica telefonica con una lista di contatti.
+
+Requisiti:
+Creare una classe Contatto con:
+Nome (String)
+Numero di telefono (String)
+Creare una classe Rubrica che utilizza un ArrayList per memorizzare i contatti.
+Il programma deve permettere all'utente di:
+Aggiungere un nuovo contatto.
+Visualizzare tutti i contatti.
+Cercare un contatto per nome.
+Eliminare un contatto dato il nome.
+Uscire dal programma.

@@ -1,18 +1,20 @@
 // STESSO ARRAY CON INDIRIZZI MEMORIA DIVERSI
 
-//public class Main {
-//    public static void main(String[] args) {
-//        int[] numeri = new int[3];
-//
-//        numeri[0] = 5;
-//        numeri[1] = 2;
-//        numeri[2] = 4;
-//        System.out.println(numeri);
-//
-//        numeri = new int[5];
-//        System.out.println(numeri);
-//    }
-//}
+package base;
+
+public class Array {
+    public static void main(String[] args) {
+        int[] numeri = new int[3];
+
+        numeri[0] = 5;
+        numeri[1] = 2;
+        numeri[2] = 4;
+        System.out.println(numeri);
+
+        numeri = new int[5];
+        System.out.println(numeri);
+    }
+}
 
 
 

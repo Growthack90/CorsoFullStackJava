@@ -1,0 +1,15 @@
+Simulazione di un Negozio (ArrayList e Classi)
+Obiettivo: Simulare un semplice negozio che gestisce un inventario di prodotti.
+
+Requisiti:
+Creare una classe Prodotto con:
+Nome (String)
+Prezzo (double)
+Quantità disponibile (int)
+Creare una classe Negozio con un ArrayList per memorizzare i prodotti.
+Il programma deve permettere all’utente di:
+Aggiungere un nuovo prodotto.
+Visualizzare tutti i prodotti disponibili.
+Acquistare un prodotto (decrementare la quantità).
+Rimuovere un prodotto dall’inventario.
+Uscire dal programma.

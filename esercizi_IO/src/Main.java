@@ -86,13 +86,17 @@ public class Main {
         System.out.println("CLASSE IO");
         System.out.println("**********************");
         
+        // COMANDO 1
         io.print("Stampo su stessa riga");
         
+        // COMANDO 2
         io.println("\nStampo andando poi a capo");
         
+        // COMANDO 3
         int eta = io.inputInt("Inserisci la tua età: ");
         io.println("La tua età è: " + eta);
         
+        // COMANDO 4
         String nome = io.inputString("Come ti chiami?");
         io.println("Ciao "+ nome + "\n" + "Ho inserito il nome?\n" + !nome.isEmpty());        
                

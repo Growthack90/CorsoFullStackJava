@@ -88,7 +88,7 @@
 /**********************************************************/
 
 // (modifica al precedente)
-
+package base;
 
 import java.util.Scanner;
 

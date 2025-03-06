@@ -1,3 +1,4 @@
+package base;
 import java.util.Scanner;
 
 public class gestErrori {
