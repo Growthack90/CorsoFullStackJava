@@ -22,8 +22,8 @@ public class LeggiFile2 {
 			scelta = IO.getInt("Cosa vuoi fare?");
 			if (scelta==1)
 			{
- 
-						String cartella = "C:\\Users\\Family\\eclipse-workspace-corsofullstack\\File01\\";
+						// !!! inserisci il percorso reale a cui vuoi fare riferimento !!!
+						String cartella = "C:\\projects\\JAVA\\wp\\File01\\tests\\";
 						// Elenchiamo i file nella cartella indicata nella variabile cartella
 						File dir = new File(cartella); // dir diventa l'oggetto che gestisce la cartella cartella ("C:\\projects\\JAVA\\wp\\File01\\tests\\") 
  

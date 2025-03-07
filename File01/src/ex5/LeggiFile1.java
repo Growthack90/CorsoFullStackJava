@@ -22,7 +22,7 @@ public class LeggiFile1 {
 			if (scelta==1)
 			{
 
-//						// !!! inserisci il percorso reale a cui vuoi fare riferimento !!!
+						// !!! inserisci il percorso reale a cui vuoi fare riferimento !!!
 						String cartella = "C:\\projects\\JAVA\\wp\\File01\\tests\\";
 						
 						// Elenchiamo i file nella cartella indicata nella variabile cartella
