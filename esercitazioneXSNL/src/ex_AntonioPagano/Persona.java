@@ -1,4 +1,4 @@
-package esercitazione_AntonioPagano;
+package ex_AntonioPagano;
 
 import java.util.Objects; // Importa la classe Objects per usare Objects.equals() e Objects.hash()
 

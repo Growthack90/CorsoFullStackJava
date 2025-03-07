@@ -1,4 +1,4 @@
-package esercitazione_AntonioPagano;
+package ex_AntonioPagano;
 
 public class Main {
 

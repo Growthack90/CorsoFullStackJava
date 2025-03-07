@@ -1,4 +1,4 @@
-package esercitazione_AntonioPagano;
+package ex_AntonioPagano;
 
 /*******************************************************/
 //ESERCIZI ANTONIO PAGANO
