@@ -1,24 +1,4 @@
-/*************************************************************/
-// ESEMPIO 1
-/*************************************************************/
-/*
-package esempioPackages;
-
-public class Main {
-    public static void main(String[] args) {
-    	 
-        IO.println("Inserisci il tuo nome: ");
-        String nome = IO.readString();
-        IO.println("Ciao " + nome + "!");
-    }
-}
-*/
-/*************************************************************/
-
-/*************************************************************/
-//ESEMPIO 2
-/*************************************************************/
-package esercizio2;
+package ex3;
 
 public class Main {
 	public static void main(String[] args) {
@@ -206,4 +186,3 @@ public class Main {
 		System.out.println("-----------------------------------");    
 	}
 }
-/*************************************************************/

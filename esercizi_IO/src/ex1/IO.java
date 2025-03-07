@@ -1,8 +1,8 @@
-package classiMie;
+package ex1;
 
 import java.util.Scanner;
 
-public class io {
+public class IO {
 
 	// COMANDO 1
 	public static void print(Object s) { // Accetta un Object come parametro, ovvero qualsiasi tipo di dato.

@@ -1,28 +1,5 @@
 
-/*************************************************************/
-// ESEMPIO 1
-/*************************************************************/
-//package esempioPackages;
-//import java.util.Scanner;
-//
-//public class IO {
-//
-//    public static void println(Object s) {
-//        System.out.println(s);
-//    }
-//    
-//    public static String readString() {
-//    	Scanner scanner = new Scanner(System.in);
-//        return scanner.nextLine();
-//    }
-//}
-
-
-
-/*************************************************************/
-// ESEMPIO 2
-/*************************************************************/
-package esercizio2;
+package ex3;
 import java.util.Scanner;
 
 public class IO {
@@ -62,5 +39,4 @@ public class IO {
     }
     
 }
-/*************************************************************/
 
