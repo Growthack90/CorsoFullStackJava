@@ -1,0 +1,30 @@
+-- Crea il database "contabilita"
+CREATE DATABASE contabilita;
+
+-- Usa il database "contabilita"
+USE contabilita;
+
+-- Crea la tabella "movimentazioni"
+CREATE TABLE movimentazioni (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(60) NOT NULL,
+    descrizione VARCHAR(60) NOT NULL,
+    ammontare DECIMAL(10, 2)
+);
+
+-- Inserisci 3 movimenti di spesa (ammontare negativo)
+INSERT INTO movimentazioni (nome, descrizione, ammontare) VALUES
+('Spesa ufficio', 'Materiale di cancelleria', -50.00),
+('Spesa viaggio', 'Biglietti treno', -120.50),
+('Spesa software', 'Licenza programma', -300.25);
+
+-- Inserisci 2 movimenti di entrata (ammontare positivo)
+INSERT INTO movimentazioni (nome, descrizione, ammontare) VALUES
+('Vendita prodotto', 'Vendita online', 250.75),
+('Rimborso cliente', 'Rimborso fattura errata', 80.00);
+
+-- Seleziona solo le spese (ammontare negativo)
+SELECT * FROM movimentazioni WHERE ammontare < 0;
+
+-- Seleziona solo le entrate (ammontare positivo)
+SELECT * FROM movimentazioni WHERE ammontare > 0;
