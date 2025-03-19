@@ -1,0 +1,18 @@
+CREATE DATABASE biblioteca;
+
+USE biblioteca;
+
+CREATE TABLE libri (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    titolo VARCHAR(100),
+    autore VARCHAR(100),
+    anno_pubblicazione INT,
+    disponibile BOOLEAN
+);
+
+CREATE TABLE lettori (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(50),
+    cognome VARCHAR(50),
+    email VARCHAR(100)
+);

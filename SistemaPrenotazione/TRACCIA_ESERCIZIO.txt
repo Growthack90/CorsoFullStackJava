@@ -1,0 +1,17 @@
+Gestione di un Sistema di Prenotazioni
+
+Obiettivo:
+Creare un programma in Java che gestisca le prenotazioni di un hotel, consentendo di:
+
+Aggiungere una prenotazione.
+Visualizzare tutte le prenotazioni.
+Cercare una prenotazione per ID.
+Eliminare una prenotazione.
+
+N.B: Considerate una prenotazione di una sola data, singolo giorno
+
+
+Facoltativo:
+In un'applicazione reale, potresti voler aggiungere ulteriori funzionalità, come la gestione delle camere, dei prezzi, ecc.
+Per la persistenza dei dati, potresti utilizzare un database o salvare le prenotazioni in un file.
+Vengono eseguiti controlli basilari dell'input, ma sarebbe opportuno aggiungere una validazione più robusta.
